@@ -10,7 +10,7 @@ $(document).ready(function(){
       
             //Checks if one of the answers is left blank
             if(isNaN(result)=== true){
-              $("#result").text("Please ensure all questions are answered");
+              $("#result").text("Answer all the questions"); 
               $(".quiz").hide();
               $(".answer").show();
             }else{
