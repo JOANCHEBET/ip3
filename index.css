@@ -1,0 +1,43 @@
+body{
+    font-weight: bold;
+    font-family:sans-serif;
+    background-image: url("./lappy.jpeg");
+   }
+  .container{
+    display:show;
+    background-image: url("./lappy.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .answer{
+    display:none;
+  }
+  .nice {
+      margin-bottom: 0px;
+      height:280px;
+      font-style: italic;
+     background-position: 0% 48%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-shadow: black 0.9em 0.9em 0.9em;
+  }
+  .nice h4{
+    text-decoration: underline;
+  }
+  ol{
+    list-style-position:inside;
+  }
+  input{
+    text-align: center;
+  }
+  .answer p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .answer h2{
+    color: DarkBlue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }

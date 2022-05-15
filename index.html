@@ -1,53 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>school project</title>
-    <link rel="stylesheet" type="index/css" href="index.css">
-    <script type="index/javascript" src="index.js"></script>
-</head>
-<body>
-        <form name="Javascript questions" id="Questions">
-         <div>
-             <p>1. Which one is not a type of pop-up boxes available in Javascript </p>
-             <p><input type="radio" name="question1" value="alert">i) Alert</p>
-             <p><input type="radio" name="question1" value="alert">ii) Confirm</p>
-             <p><input type="radio" name="question1" value="alert">iii) Prompt</p>
-             <p><input type="radio" name="question1" value="alert">iv) Void</p>
-         </div>
-         <div>
-            <div>
-                <p>2.How many types of loops do we have in Javascript</p>
-                <p><input type="radio" name="question2" value="alert">i) 4</p>
-                <p><input type="radio" name="question2" value="alert">ii) 3</p>
-                <p><input type="radio" name="question2" value="alert">iii) 2</p>
-                <p><input type="radio" name="question2" value="alert">iv) 1</p>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/jpeg" href="./lappy.jpeg">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <script  src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+    <script src= "index.js"></script>
+    
+    <title>Javascript Quiz</title>
+  </head>
+
+  <body>
+  <div class="container">
+    <div class="nice">
+      <h1>Javascript Test</h1>
+      <h4>Instructions</h4>
+        <ol>
+          <li>Answer all questions</li>
+          <li>Read and understand every question</li>
+          <li>Do not attempt cheating during exam period.</li>
+          <li>Your results will be displayed immediately after submition</li>
+          <li>All the best</li>
+        </ol>
+    </div>
+
+    <div class="quiz">
+      <form id="options">
+        <br>
+        <ol>
+          <div class="text-center">
+            <div  class="panel panel-primary">
+              <div class="panel-heading">
+                <li> Which one is not a type of popup boxes</li>
+              </div>
+              <div class= "panel-body">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="20%">
+                  a)  void
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="0">
+                   b) confirm
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="0">
+                   c) prompt
+                  </label>
+                </div>
+              </div>
             </div>
-            <div>
-                <p>3.which one is not a type of errors in javascript</p>
-                <p><input type="radio" name="question3" value="alert">i) load time errors</p>
-                <p><input type="radio" name="question3" value="alert">ii) shorttime errors</p>
-                <p><input type="radio" name="question3" value="alert">iii) logical errors</p>
-                <p><input type="radio" name="question3" value="alert">iv) Runtime errors</p>
+          </div>
+
+          <div class="text-center">
+            <div  class="panel panel-primary">
+              <div class="panel-heading">
+                <li>How many types of loops do we have in Javascript?</li>
+              </div>
+              <div class="panel-body">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="0">
+                   a) 3
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="20%">
+                   b) 4
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="0">
+                   c) 1
+                  </label>
+                </div>
+              </div>
             </div>
-            <div>
-                <p>4. Undefine value in Javascript means the folllowing except?</p>
-                <p><input type="radio" name="question4" value="alert">i) variable used in the code does not exist</p>
-                <p><input type="radio" name="question4" value="alert">ii) variable is not assigned to any value</p>
-                <p><input type="radio" name="question4" value="alert">iii) property exist</p>
-                <p><input type="radio" name="question4" value="alert">iv) property does not exist</p>
+          </div>
+
+          <div class="text-center">
+            <div  class="panel panel-primary">
+              <div class="panel-heading">
+                <li>Which is not a type of errors in Javascript</li>
+              </div>
+              <div class="panel-body">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="0">
+                   a) loadtime errors
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="0">
+                  b)  logical errors
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="20%">
+                   c) shorttime errors
+                  </label>
+                </div>
+              </div>
             </div>
-            <div>
-                <p>5. which one of the following is a data type supported in Javascript</p>
-                <p><input type="radio" name="question4" value="alert">i) Null</p>
-                <p><input type="radio" name="question4" value="alert">ii) HTML</p>
-                <p><input type="radio" name="question4" value="alert">iii) Java</p>
-                <p><input type="radio" name="question4" value="alert">iv) python</p>
+
+            <div  class="panel panel-primary">
+              <div class="panel-heading">
+                <li>Undefine value in Javascript means the following except?</li>
+              </div>
+              <div class="panel-body">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="0">
+                   a) variable used in the code doesn't exist
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="20%">
+                   b) property  exist
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="0">
+                   c) property does not exist
+                  </label>
+                </div>
+              </div>
             </div>
-   
-        <input type="button" name="" value="SUBMIT" onclick="check()">
-    </form>
-</body>
+
+            <div  class="panel panel-primary">
+                <div class="panel-heading">
+                  <li>Which one is a data type supported in Javascript</li>
+                </div>
+                <div clas="panel-body">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="question5" value="20%">
+                     a) Null
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="question5" value="0">
+                     b) HTML
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="question5" value="0">
+                    c)  Python
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ol>
+          <div class="text-center"><button type="submit" class="btn btn-danger btn-lg">Submit Answers</button></div>
+        </form>
+
+      </div>
+      <br><br><br><br><br>
+      <div class="text-center">
+        <div class="well well-primary">
+          <div class="answer">
+            <form class="revert">
+              <h2>TOTAL SCORE</h2>
+
+              <p id="result"></p>
+
+              <div class="text-center"><button type="submit" class="btn btn-danger btn-lg">Go back</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
