@@ -1,11 +1,10 @@
 body{
     font-weight: bold;
     font-family:sans-serif;
-    background-image: url("./lappy.jpeg");
+    background-color: aqua;
    }
   .container{
     display:show;
-    background-image: url("./lappy.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,7 +15,7 @@ body{
       margin-bottom: 0px;
       height:280px;
       font-style: italic;
-     background-position: 0% 47%;
+      background-position: 0% 47%;
       background-size: cover;
       background-repeat: no-repeat;
       text-shadow: black 0.9em 0.9em 0.9em;
