@@ -21,7 +21,7 @@ Technologies Used
     • JavaScript was used in making the webpage responsive.
     • Git and Github were used as my local and online repositories respectively.
 Support and contact details
-    • Contact me through my gmail: chebetjoan115@gmail.com
+    • Contact me through my gmail: chebetjoan115@gmail.com or joan.chebet@student.moringa.com
     • The source code is also contained within the folder containing this Read-Me with comments on the code .
 License
 Moringa School Copyright (c)2022  ip3 JOAN CHEBET.
